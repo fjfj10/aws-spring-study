@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<!--    th:text="${변수명}" : ssr방식-->
+    <h1 th:text="${title}"></h1>
     <!-- form에서는 get과 post만 사용가능 -->
     <form method="post" action="/post/xwww">
         <div><input name="name" placeholder="이름" /></div>
