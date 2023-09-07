@@ -38,10 +38,6 @@ function Main(props) {
             <button onClick={handleRegisterClick}>추가하기</button>
             <button onClick={handleUpdateClick}>수정하기</button>
             <button onClick={handleDeleteClick}>삭제하기</button>
-
-            <ul>
-
-            </ul>
         </div>
     );
 }
