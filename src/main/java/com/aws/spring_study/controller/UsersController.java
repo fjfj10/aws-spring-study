@@ -51,7 +51,7 @@ public class UsersController {
     @DeleteMapping("/user/{userId}")
     public ResponseEntity<Integer> deleteUser(@PathVariable int userId) {
 
-        System.out.println(userId);
+        System.out.println(userId); 
         Integer count = userMappers.deleteUser(userId);
         return ResponseEntity.ok().body(null);
     }

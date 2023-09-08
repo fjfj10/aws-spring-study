@@ -47,7 +47,7 @@ function Main(props) {
         // registerUser(userInput);
         // requestGetUserListAll();
         await registerUser(userInput);
-        requestGetUserListAll();    //await requestGetUserListAll은 안됌 requestGetUserListAll안이 비동기지 requestGetUserListAll자체가 비동기인건 아니니까
+        requestGetUserListAll();    //await requestGetUserListAll(X) requestGetUserListAll안이 비동기지 requestGetUserListAll자체가 비동기인건 아니니까
     }
 
     const handleUpdateClick = async () => {
